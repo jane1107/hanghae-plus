@@ -1,5 +1,14 @@
 export function jsx(type, props, ...children) {
-  return {};
+  let result = `<${type}`;
+  for (var key in props) {
+    result += ` ${key}="${props[key]}"`;
+  }
+  result += `>`;
+  children.forEach((value) => {
+    result += value;
+  });
+  result += `</${type}>`;
+  return result;
 }
 
 export function createElement(node) {
@@ -26,9 +35,22 @@ export function render(parent, newNode, oldNode, index = 0) {
   // 2. 만약 newNode가 있고 oldNode가 없다면
   //   newNode를 생성하여 parent에 추가
   //   종료
+  if (oldNode == null) {
+    parent.innerHTML = newNode;
+    return;
+  }
+
   // 3. 만약 newNode와 oldNode 둘 다 문자열이고 서로 다르다면
   //   oldNode를 newNode로 교체
   //   종료
+  if (typeof newNode === "string" && typeof oldNode === "string") {
+    if (newNode != oldNode) {
+      oldNode = newNode;
+      parent.innerHTML = newNode;
+    }
+    return;
+  }
+
   // 4. 만약 newNode와 oldNode의 타입이 다르다면
   //   oldNode를 newNode로 교체
   //   종료

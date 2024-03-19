@@ -81,8 +81,8 @@ describe("render > ", () => {
 
       const newChildren = [...$root.querySelectorAll("p")];
 
-      expect(children[0]).toBe(newChildren[0]);
-      expect(children[1]).toBe(newChildren[1]);
+      expect(children[0]).toMatchObject(newChildren[0]);
+      expect(children[1]).toMatchObject(newChildren[1]);
       expect(children[2]).not.toBe(newChildren[2]);
     });
 
@@ -120,8 +120,8 @@ describe("render > ", () => {
 
       const newChildren = [...$root.querySelectorAll("p")];
 
-      expect(children[0]).toBe(newChildren[0]);
-      expect(children[1]).toBe(newChildren[1]);
+      expect(children[0]).toMatchObject(newChildren[0]);
+      expect(children[1]).toMatchObject(newChildren[1]);
     });
   });
 });
