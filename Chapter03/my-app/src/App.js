@@ -10,6 +10,13 @@ function App() {
           name="problem A"
           content="enhance seo in your react application"
         />
+        <meta property="og:site_name" content="Problem_A" />
+        <meta property="og:title" content="enhance seo" />
+        <meta property="og:url" content="https://jane1107.github.io/" />
+        <meta
+          property="og:description"
+          content="enhance seo in your react application"
+        />
       </Helmet>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
