@@ -13,9 +13,17 @@ React 프로젝트에서 SEO 대응을 위한 최소 작업 대응
 - [open graph protocol](https://ogp.me/) 태그 세팅
 - twitter tag 세팅
 
+- index.html 수정 없이 head 수정
+<img width="746" alt="스크린샷 2024-04-03 오후 11 05 58" src="https://github.com/jane1107/hanghae-plus/assets/35310404/44ee66ef-3c88-4aa1-a96e-38d56a673394">
+
+
 ## Favicon 세팅
 
 [favicon-generator.org](https://www.favicon-generator.org/) 에서 생성
+
+<img width="386" alt="스크린샷 2024-04-03 오후 11 28 52" src="https://github.com/jane1107/hanghae-plus/assets/35310404/9d4b4d5a-73ec-4fd8-b393-245a01b5f383">
+
+
 
 ### 각 파일의 역할
 
