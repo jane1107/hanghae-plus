@@ -35,10 +35,17 @@ React 프로젝트에서 SEO 대응을 위한 최소 작업 대응
 
 ## SEO 스코어 분석
 
-- 스코어 분석에 사용한 서비스 :
+- 스코어 분석에 사용한 서비스 : seobility, smallseotools
+  
+<img width="1215" alt="스크린샷 2024-04-04 오전 12 01 24" src="https://github.com/jane1107/hanghae-plus/assets/35310404/bf4bf2dc-c1cd-42a1-8282-4e9604635640">
+
+<img width="627" alt="스크린샷 2024-04-04 오후 10 16 57" src="https://github.com/jane1107/hanghae-plus/assets/35310404/46b6efad-bd50-4d20-bfb2-f4d2846c7db5">
+
+  
 
 ### 개선점
 
 - XML Sitemaps 작성
 - robot.txt 최적화
 - 모바일 친화적 최적화
+- 404 page 추가
