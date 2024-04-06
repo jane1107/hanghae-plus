@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Helmet>
-        <meta name="problem A" content={description} />
+        <meta name="description" content={description} />
         <meta property="og:site_name" content="Problem_A" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content={url} />
